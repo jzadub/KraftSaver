@@ -1,0 +1,133 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "scrnsave.h"
+#define APSTUDIO_HIDDEN_SYMBOLS
+#include "windows.h"
+#undef APSTUDIO_HIDDEN_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Danish resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_DAN)
+#ifdef _WIN32
+LANGUAGE LANG_DANISH, SUBLANG_DEFAULT
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+DLG_SCRNSAVECONFIGURE DIALOG DISCARDABLE  0, 0, 186, 70
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Kraftwerk - Robots Saver"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",ID_OK,132,52,50,14
+    GROUPBOX        "Kraftwerk - Robots Saver V0.9b1",IDC_STATIC,4,1,178,47
+    LTEXT           "http://altf4.dk",IDC_STATIC,3,59,45,8
+    LTEXT           "http://www.kraftwerk.com",IDC_STATIC,3,50,84,8
+    LTEXT           "Programmed by DartFader(DartFader@altf4.dk).\nGraphics taken from Kraftwerk's homepage.\n\nDedicated to Kraftwerk.",
+                    IDC_STATIC,12,11,161,32
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+ID_APP                  ICON    DISCARDABLE     "id_app.ico"
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""scrnsave.h""\r\n"
+    "#define APSTUDIO_HIDDEN_SYMBOLS\r\n"
+    "#include ""windows.h""\r\n"
+    "#undef APSTUDIO_HIDDEN_SYMBOLS\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_BITMAP18            BITMAP  DISCARDABLE     "Bitmaps\\Robot18.bmp"
+IDB_BITMAP2             BITMAP  DISCARDABLE     "Bitmaps\\Robot02.bmp"
+IDB_BITMAP3             BITMAP  DISCARDABLE     "Bitmaps\\Robot03.bmp"
+IDB_BITMAP4             BITMAP  DISCARDABLE     "Bitmaps\\Robot04.bmp"
+IDB_BITMAP5             BITMAP  DISCARDABLE     "Bitmaps\\Robot05.bmp"
+IDB_BITMAP6             BITMAP  DISCARDABLE     "Bitmaps\\Robot06.bmp"
+IDB_BITMAP7             BITMAP  DISCARDABLE     "Bitmaps\\Robot07.bmp"
+IDB_BITMAP8             BITMAP  DISCARDABLE     "Bitmaps\\Robot08.bmp"
+IDB_BITMAP9             BITMAP  DISCARDABLE     "Bitmaps\\Robot09.bmp"
+IDB_BITMAP10            BITMAP  DISCARDABLE     "Bitmaps\\Robot10.bmp"
+IDB_BITMAP11            BITMAP  DISCARDABLE     "Bitmaps\\Robot11.bmp"
+IDB_BITMAP12            BITMAP  DISCARDABLE     "Bitmaps\\Robot12.bmp"
+IDB_BITMAP13            BITMAP  DISCARDABLE     "Bitmaps\\Robot13.bmp"
+IDB_BITMAP14            BITMAP  DISCARDABLE     "Bitmaps\\Robot14.bmp"
+IDB_BITMAP15            BITMAP  DISCARDABLE     "Bitmaps\\Robot15.bmp"
+IDB_BITMAP16            BITMAP  DISCARDABLE     "Bitmaps\\Robot16.bmp"
+IDB_BITMAP17            BITMAP  DISCARDABLE     "Bitmaps\\Robot17.bmp"
+IDB_BITMAP1             BITMAP  DISCARDABLE     "Bitmaps\\Robot01.bmp"
+IDB_KRAFTWERK           BITMAP  DISCARDABLE     "Bitmaps\\Kraftwerk.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_DESCRIPTION         "Kraftwerk - Robots Saver"
+END
+
+#endif    // Danish resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
